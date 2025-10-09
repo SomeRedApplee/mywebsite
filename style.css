@@ -1,0 +1,36 @@
+:root {
+  --bg: #0A0A0A;
+  --primary: #9B5FFF;
+  --accent: #8E5DEB;
+  --text: #CFCFCF;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(0,0,0,0.7);
+  padding: 1rem;
+}
+
+nav a {
+  color: var(--primary);
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+section {
+  min-height: 100vh;
+  padding: 5rem 2rem;
+}
